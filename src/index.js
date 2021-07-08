@@ -1,4 +1,4 @@
-import cardsTemplate from './tempates/cards.hbs'
+import cardsTemplate from './tempates/cards.hbs' 
 import dishes from './menu.json'
 
 const Theme = {
@@ -6,7 +6,6 @@ const Theme = {
   DARK: 'dark-theme',
 };
 
-// console.log(dishes.forEach(dish => cardsTemplate(dish).join(' ')))
 const menuList = document.querySelector(".js-menu")
 const body = document.querySelector("body")
 const switcher = document.querySelector("#theme-switch-toggle")
